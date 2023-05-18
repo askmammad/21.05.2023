@@ -1,0 +1,87 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px; 
+}
+#usersList{
+    list-style: none;
+    
+}
+#container{
+    background-color: #f9fafb;
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    
+}
+#left_container{
+    width: 50%;
+    padding-left: 50px;
+}
+#right_container{
+    width: 50%;
+}
+#form_box{
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px gainsboro;
+    padding: 20px 20px;
+    background-color: white;
+    width: 350px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+#register{
+    margin-bottom: 10px;
+}
+.profile_style{
+    width: 50%;
+    height: 100%;
+    background-color: rgb(215, 215, 227);
+    border-radius: 20px;
+    padding: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    box-shadow: 5px 5px 5px gainsboro;
+    
+}
+.errors{
+    color: red;
+    font-size: 12px;
+    letter-spacing: 0.5px;
+    padding: 1px;
+    margin-top: 1px;
+    margin-bottom: 15px;
+}
+.errorBorder{
+    border: solid 2px red;
+}
+
+.labels{
+    color: rgb(87, 87, 87);
+    font-size: 18px;
+    margin-bottom: 15px;
+    
+}
+.inputs{
+    padding: 5px;
+    width: 280px;
+}
+#button{
+    background-color: blue;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    width: 290px;
+    margin-top: 10px;
+}
+#button:hover{
+    opacity: 0.7;
+}
+.username{
+font-size: 15px;
+margin-bottom: 20px;
+}
+.email{
+font-size: 15px;
+}
