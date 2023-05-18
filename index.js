@@ -37,8 +37,8 @@ function checkValue(e) {
       document.getElementById("usernameID").classList.add("errorBorder");
     }
   }
-  function emailCheck(f, k) {
-    if (f.match(k)) {
+  function emailCheck(f, z) {
+    if (f.match(z)) {
       emailError.innerHTML = "";
       document.getElementById("emailID").classList.remove("errorBorder");
       emailTrue = true;
