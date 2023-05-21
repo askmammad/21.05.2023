@@ -38,7 +38,7 @@ function checkValue(e) {
     }
   }
   function emailCheck(emCheck, matchCheck) {
-    if (emCheck.match(matchCheck)) {
+    if (emCheck.match(matchCheck) && emCheck.length != 0) {
       emailError.innerHTML = "";
       document.getElementById("emailID").classList.remove("errorBorder");
       emailTrue = true;
